@@ -1,0 +1,194 @@
+{
+  "users": {
+    "e16ef4f4875c2a05": {
+      "name": "Harsh",
+      "password": "mypassword",
+      "mobile": "9876543210",
+      "pin": "1234",
+      "balance": 500.0,
+      "zone_code": "TP-N",
+      "provider": "Tata Power",
+      "uid": "98302354d90651be",
+      "vmid": "e16ef4f4875c2a05",
+      "created_at": 1775036092.4271197,
+      "active": true
+    },
+    "13ec35964f360a12": {
+      "name": "asfas",
+      "password": "1234",
+      "mobile": "9182137463",
+      "pin": "1234",
+      "balance": 799.0,
+      "zone_code": "TP-N",
+      "provider": "Tata Power",
+      "uid": "51fea5449bb39645",
+      "vmid": "13ec35964f360a12",
+      "created_at": 1775036432.4541626,
+      "active": true
+    },
+    "a5376f9e15db4fe7": {
+      "name": "smitha",
+      "password": "prem",
+      "mobile": "9948758593",
+      "pin": "2022",
+      "balance": 500.0,
+      "zone_code": "AD-S",
+      "provider": "Adani Energy",
+      "uid": "67188693cc600616",
+      "vmid": "a5376f9e15db4fe7",
+      "created_at": 1775988347.8180666,
+      "active": true
+    }
+  },
+  "franchises": {
+    "45289341a8c31cf3": {
+      "name": "EV Station One",
+      "password": "pass123",
+      "balance": 1501.0,
+      "zone_code": "TP-N",
+      "provider": "Tata Power",
+      "fid": "45289341a8c31cf3",
+      "created_at": 1775036092.426427,
+      "active": true
+    },
+    "bd632f35538d4d29": {
+      "name": "wet",
+      "password": "1234",
+      "balance": 10200.0,
+      "zone_code": "TP-N",
+      "provider": "Tata Power",
+      "fid": "bd632f35538d4d29",
+      "created_at": 1775036397.9750578,
+      "active": true
+    }
+  },
+  "blockchain": [
+    {
+      "index": 0,
+      "transaction_id": "9d3054aaa3085884e97f623b0ffaba560a198e1abb59a43fe1f09c3af3735e2b",
+      "transaction": {
+        "message": "Genesis Block"
+      },
+      "previous_hash": "0",
+      "timestamp": 1775036092.4251618,
+      "status": "GENESIS",
+      "dispute": false,
+      "reason": "",
+      "block_hash": "b129e6f6e5ba691cfec1d4137f51fa8bad73182a2604f4f895b72031d97701a3"
+    },
+    {
+      "index": 1,
+      "transaction_id": "318cddb69779fcbd572a0361bd75074262423f5825113aa8851dfe4f471e16af",
+      "transaction": {
+        "vmid": "13ec35964f360a12",
+        "fid": "bd632f35538d4d29",
+        "user_name": "asfas",
+        "franchise_name": "wet",
+        "amount": 100.0,
+        "time": "2026-04-01 15:11:04"
+      },
+      "previous_hash": "b129e6f6e5ba691cfec1d4137f51fa8bad73182a2604f4f895b72031d97701a3",
+      "timestamp": 1775036464.9827316,
+      "status": "SUCCESS",
+      "dispute": false,
+      "reason": "",
+      "block_hash": "4ebffb40201f27c6fbf06f1cff4a64a9a0e743a837f3e767a783ce47e14d9d96"
+    },
+    {
+      "index": 2,
+      "transaction_id": "c6afd744eb7a96e4c006977e0438a70576adf7bd6db2c66837e42c3a27984676",
+      "transaction": {
+        "vmid": "13ec35964f360a12",
+        "fid": "bd632f35538d4d29",
+        "user_name": "asfas",
+        "franchise_name": "wet",
+        "amount": 100.0,
+        "time": "2026-04-01 15:11:43"
+      },
+      "previous_hash": "4ebffb40201f27c6fbf06f1cff4a64a9a0e743a837f3e767a783ce47e14d9d96",
+      "timestamp": 1775036503.289664,
+      "status": "SUCCESS",
+      "dispute": false,
+      "reason": "",
+      "block_hash": "8be489b6bbfbe8ac8fa636952ca332245ce3233994391120305529ce97c2a6d0"
+    },
+    {
+      "index": 3,
+      "transaction_id": "eb1f4cbb7d38ac7522d743fb56a2e4222c1a00b6fe766c1bc3a3b947de1043eb",
+      "transaction": {
+        "vmid": "13ec35964f360a12",
+        "fid": "45289341a8c31cf3",
+        "user_name": "asfas",
+        "franchise_name": "EV Station One",
+        "amount": 1.0,
+        "time": "2026-04-01 15:59:41"
+      },
+      "previous_hash": "8be489b6bbfbe8ac8fa636952ca332245ce3233994391120305529ce97c2a6d0",
+      "timestamp": 1775039381.371529,
+      "status": "SUCCESS",
+      "dispute": false,
+      "reason": "",
+      "block_hash": "ac1e392c9250742bd77edbeb81842770d06f14394349f4efaf36602b2866a0aa"
+    },
+    {
+      "index": 4,
+      "transaction_id": "5bcde3c782056e51bcb85b588e90511310c5de1ccaaea50d0d3fe1d96b1f1573",
+      "transaction": {
+        "vmid": "a5376f9e15db4fe7",
+        "fid": "45289341a8c31cf3",
+        "user_name": "smitha",
+        "franchise_name": "EV Station One",
+        "amount": 500.0,
+        "time": "2026-04-12 15:37:24"
+      },
+      "previous_hash": "ac1e392c9250742bd77edbeb81842770d06f14394349f4efaf36602b2866a0aa",
+      "timestamp": 1775988444.3682895,
+      "status": "SUCCESS",
+      "dispute": false,
+      "reason": "",
+      "block_hash": "34e621c7521ad1a2f783a3e0e638ab82e7640338cc0f06c39d3c57929e6b22b2"
+    }
+  ],
+  "audit_log": [
+    {
+      "time": "2026-04-01 15:04:52",
+      "event": "Franchise registered: EV Station One (45289341a8c31cf3)"
+    },
+    {
+      "time": "2026-04-01 15:04:52",
+      "event": "User registered: Harsh (e16ef4f4875c2a05)"
+    },
+    {
+      "time": "2026-04-01 15:04:52",
+      "event": "Demo data seeded for franchise 45289341a8c31cf3"
+    },
+    {
+      "time": "2026-04-01 15:09:57",
+      "event": "Franchise registered: wet (bd632f35538d4d29)"
+    },
+    {
+      "time": "2026-04-01 15:10:32",
+      "event": "User registered: asfas (13ec35964f360a12)"
+    },
+    {
+      "time": "2026-04-01 15:11:04",
+      "event": "Payment success for VMID 13ec35964f360a12 at FID bd632f35538d4d29"
+    },
+    {
+      "time": "2026-04-01 15:11:43",
+      "event": "Payment success for VMID 13ec35964f360a12 at FID bd632f35538d4d29"
+    },
+    {
+      "time": "2026-04-01 15:59:41",
+      "event": "Payment success for VMID 13ec35964f360a12 at FID 45289341a8c31cf3"
+    },
+    {
+      "time": "2026-04-12 15:35:47",
+      "event": "User registered: smitha (a5376f9e15db4fe7)"
+    },
+    {
+      "time": "2026-04-12 15:37:24",
+      "event": "Payment success for VMID a5376f9e15db4fe7 at FID 45289341a8c31cf3"
+    }
+  ]
+}
