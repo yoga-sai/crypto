@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 20% 6%;
+    --foreground: 160 10% 90%;
+
+    --card: 220 18% 10%;
+    --card-foreground: 160 10% 90%;
+
+    --popover: 220 18% 10%;
+    --popover-foreground: 160 10% 90%;
+
+    --primary: 155 100% 45%;
+    --primary-foreground: 220 20% 6%;
+
+    --secondary: 200 80% 50%;
+    --secondary-foreground: 220 20% 6%;
+
+    --muted: 220 15% 15%;
+    --muted-foreground: 220 10% 55%;
+
+    --accent: 270 80% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 15% 18%;
+    --input: 220 15% 18%;
+    --ring: 155 100% 45%;
+
+    --radius: 0.75rem;
+
+    --neon-glow: 155 100% 45%;
+    --cyber-blue: 200 80% 50%;
+    --quantum-purple: 270 80% 60%;
+    --warning-amber: 40 100% 55%;
+    --blockchain-teal: 175 70% 40%;
+
+    --sidebar-background: 220 18% 8%;
+    --sidebar-foreground: 160 10% 90%;
+    --sidebar-primary: 155 100% 45%;
+    --sidebar-primary-foreground: 220 20% 6%;
+    --sidebar-accent: 220 15% 15%;
+    --sidebar-accent-foreground: 160 10% 90%;
+    --sidebar-border: 220 15% 18%;
+    --sidebar-ring: 155 100% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+    font-family: 'Inter', sans-serif;
+  }
+
+  code, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@layer utilities {
+  .glow-green {
+    box-shadow: 0 0 15px hsl(155 100% 45% / 0.3), 0 0 30px hsl(155 100% 45% / 0.1);
+  }
+
+  .glow-blue {
+    box-shadow: 0 0 15px hsl(200 80% 50% / 0.3), 0 0 30px hsl(200 80% 50% / 0.1);
+  }
+
+  .glow-purple {
+    box-shadow: 0 0 15px hsl(270 80% 60% / 0.3), 0 0 30px hsl(270 80% 60% / 0.1);
+  }
+
+  .text-glow-green {
+    text-shadow: 0 0 10px hsl(155 100% 45% / 0.5);
+  }
+
+  .grid-pattern {
+    background-image: 
+      linear-gradient(hsl(220 15% 18% / 0.5) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(220 15% 18% / 0.5) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+
+  .scanline {
+    background: linear-gradient(
+      transparent 50%,
+      hsl(155 100% 45% / 0.02) 50%
+    );
+    background-size: 100% 4px;
+  }
+}
